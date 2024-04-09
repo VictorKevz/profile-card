@@ -3,10 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Kumbh Sans", sans-serif;
-    /* background: url("/src/assets/images/bg-pattern-top.svg") top left no-repeat,
-    url("/src/assets/images/bg-pattern-bottom.svg") bottom right no-repeat;
-    background-repeat: no-repeat, no-repeat; */
-    background-size: contain;
+    background: url("/src/assets/images/bg-pattern-top.svg"),url("/src/assets/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+	background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-color: hsl(185, 75%, 39%);
     background-origin: border-box;
     
